@@ -1,3 +1,12 @@
+label {
+	display: block;
+	cursor: pointer;
+}
+
+input + label {
+	display: inline;
+}
+
 input {
 	border: 3px solid hotpink;
 	background-color: pink;
@@ -8,7 +17,7 @@ input {
 
 button {
 	border: 3px solid limegreen;
-	background-image: linear-gradient (limegreen, darkgreen);
+	background-image: linear-gradient(limegreen, darkgreen);
 	font-size: 3rem;
 	padding: 1em;
 	border-radius: 10px;
